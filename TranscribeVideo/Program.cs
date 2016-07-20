@@ -15,7 +15,7 @@ namespace TranscribeVideo
 
     class Program
     {
-
+        //Test
         public static string outFolder = @"C:\SubTwitr\Output\";
         static void Main(string[] args)
         {
