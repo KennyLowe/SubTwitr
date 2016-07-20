@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscribeVideo", "TranscribeVideo\TranscribeVideo.csproj", "{A98C4907-C8A2-4D2E-AC18-223730859BF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchFolder", "WatchFolder\WatchFolder.csproj", "{FF6402CE-C8A2-417A-8EFB-36CB1A0236E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetVideo", "ConsoleApplication1\TweetVideo.csproj", "{60346C8E-3F18-4CD0-B923-D633E4661543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,19 @@ Global
 		{A98C4907-C8A2-4D2E-AC18-223730859BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98C4907-C8A2-4D2E-AC18-223730859BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A98C4907-C8A2-4D2E-AC18-223730859BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6402CE-C8A2-417A-8EFB-36CB1A0236E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6402CE-C8A2-417A-8EFB-36CB1A0236E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6402CE-C8A2-417A-8EFB-36CB1A0236E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6402CE-C8A2-417A-8EFB-36CB1A0236E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60346C8E-3F18-4CD0-B923-D633E4661543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60346C8E-3F18-4CD0-B923-D633E4661543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60346C8E-3F18-4CD0-B923-D633E4661543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60346C8E-3F18-4CD0-B923-D633E4661543}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
 	EndGlobalSection
 EndGlobal
