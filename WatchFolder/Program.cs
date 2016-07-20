@@ -74,7 +74,7 @@ namespace WatchFolder
             start.WindowStyle = ProcessWindowStyle.Normal;
             start.CreateNoWindow = false;
             start.UseShellExecute = true;
-            start.WorkingDirectory = @"C:\subtwitr\TranscribeVideo\TranscribeVideo\bin\Debug";
+            start.WorkingDirectory = @"C:\git\TranscribeVideo\TranscribeVideo\bin\Debug";
             //int exitCode;
 
             try
